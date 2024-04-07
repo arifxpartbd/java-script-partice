@@ -1,5 +1,12 @@
 <h1>My First Java Script</h1>
 
+<style>
+    #changeFontSize{
+        font-size: 25px;
+    
+    }
+</style>
+
 <button 
 onclick="document.getElementById('show-time').innerHTML = Date()">
 Show Current Data and time</button>
@@ -12,4 +19,8 @@ Show Current Data and time</button>
 </div>
 
 
-<p>Welcome to this page</p>
+<p>Java Script how to change font size</p>
+
+<p id="changeFontSize">My Font Size is 25px</p>
+
+<button onclick="document.getElementById('changeFontSize').style.fontSize = '20px' ";>Change font size 20px</button>
