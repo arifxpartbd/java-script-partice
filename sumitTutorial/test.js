@@ -1,5 +1,19 @@
-console.log("hello world!")
 
-console.log("how are you")
 
-console.log("test for git")
+var myName = "my name is arif";
+
+document.getElementById("demo").innerHTML = myName;
+
+// var x = 7;
+
+if(true){
+    var x = 16;
+    console.log(x);
+}
+
+console.log(x);
+
+//data type
+let dType = 10 + "volvo"
+
+console.log(dType)
