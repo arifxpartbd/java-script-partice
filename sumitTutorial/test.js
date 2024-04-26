@@ -17,3 +17,7 @@ console.log(x);
 let dType = 10 + "volvo"
 
 console.log(dType)
+
+const carList = ['volvo', 'bmw']
+
+console.log(carList[0]);
