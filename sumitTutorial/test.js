@@ -21,3 +21,6 @@ console.log(dType)
 const carList = ['volvo', 'bmw']
 
 console.log(carList[0]);
+
+const personObject = {firstName: "arif", lastName: "khan", age: "25",}
+console.log(personObject["lastName"]);
