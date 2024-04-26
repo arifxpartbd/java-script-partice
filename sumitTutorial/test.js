@@ -23,4 +23,11 @@ const carList = ['volvo', 'bmw']
 console.log(carList[0]);
 
 const personObject = {firstName: "arif", lastName: "khan", age: "25",}
-console.log(personObject["lastName"]);
+personObject.firstName = "asif";
+console.log(personObject["firstName"]);
+
+function myFunction(name){
+    console.log( name +"sleeping time is 10 PM");
+}
+
+myFunction("arif ");
