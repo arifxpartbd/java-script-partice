@@ -31,3 +31,17 @@ function myFunction(name){
 }
 
 myFunction("arif ");
+
+// how to return value from function
+
+let myReValue = myReturnValue(5,4);
+
+function myReturnValue(a, b){
+    console.log(a * b);
+    return a * b;
+}
+myReturnValue();
+console.log(myReValue);
+
+
+
