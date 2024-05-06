@@ -11,7 +11,7 @@ const car = {
     },
     modelAndColor: function(){
         return this.model + " " + this.color;
-    }
+    } 
 }
 car.color = "red updated";
 
