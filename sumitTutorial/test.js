@@ -1,7 +1,24 @@
+const car = {
+    name: "Fial",
+    model: 500,
+    weight: "850 kg",
+    color: "white",
+    start: function (){
+        console.log("car has started");
+    },
+    drive: function (){
+        console.log("car is driving");
+    },
+    modelAndColor: function(){
+        return this.model + " " + this.color;
+    }
+}
+car.color = "red updated";
 
-let x = 10;
+console.log(car.color);
 
-x %= 4;
-console.log(x)
+car.drive();
 
-console.log(x)
+let fullModelAndColor = car.modelAndColor();
+
+console.log(fullModelAndColor);
