@@ -20,5 +20,12 @@ console.log(car.color);
 car.drive();
 
 let fullModelAndColor = car.modelAndColor();
+let myText = "hello arif how are you? \\arif\\";
+
+console.log(myText);
 
 console.log(fullModelAndColor);
+
+function showTime(){
+    document.getElementById("time").innerText = "Now time is: "+ Date();
+}
