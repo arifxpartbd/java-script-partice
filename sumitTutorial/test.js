@@ -29,3 +29,13 @@ console.log(fullModelAndColor);
 function showTime(){
     document.getElementById("time").innerText = "Now time is: "+ Date();
 }
+
+let str = "hello arif";
+let newStr = str.replace("arif", "asif");
+
+console.log(newStr);
+
+function showUperTest(){
+    let myUperText = document.getElementById("time").innerHTML;
+    document.getElementById("time").innerHTML = myUperText.toUpperCase();
+}
