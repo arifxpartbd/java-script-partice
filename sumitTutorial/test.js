@@ -1,16 +1,18 @@
-let a  = `Bangladesh's`;
-console.log(a);
+const carList = ["Saab", "Volvo", "BMW", "Toyota"];
 
-let x = 5;
+let carListLenght = carList.length;
 
-const myObject = {
-    myName: "arif",
-    myAge: 26,
-    myAddress: "Dhaka,\
-    Bangladesh",
-};
+let text = "<ul>"
 
-myObject.myAddress = "Pabna";
-myObject.myOccupation = "Software Engineer";
+for(let i = 0; i < carListLenght; i ++){
+    text += "<li>" + carList[i] + "</li>";
+    console.log(carList[i]);
+}
+text += "</ul>"
 
-console.log(myObject);
+document.getElementById("demo").innerHTML = text;
+// carList.forEach(myFunction);
+
+// function myFunction(value){
+//     console.log(value);
+// }
