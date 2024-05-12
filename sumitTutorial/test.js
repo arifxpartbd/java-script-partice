@@ -1,13 +1,27 @@
-const myNumbers = [45, 50, 60];
+const myNumbers = [50, 44, 52, 81, 93, 100, 96, 98, 98];
 
-
-
-function myFunction(value){
-    return value *2 ;
+for(i = 0; i < myNumbers.length; i ++){
+    console.log(myNumbers[i]);
 }
 
+myNumbers.forEach(myForLoop);
 
-const myNewNumber = myNumbers.map(myFunction);
+function myForLoop(value){
+    console.log(value);
+}
 
-console.log(myNumbers);
-console.log(myNewNumber);
+myNumbers.map(myMap);
+
+function myMap(value){
+    console.log(value);
+}
+
+myNumbers.filter(myFilter);
+
+function myFilter(value){
+    return value > 90;
+}
+
+const myNewFilterValue = myNumbers.filter(myFilter);
+
+console.log(myNewFilterValue);
