@@ -3,11 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Random Number Generator</title>
 </head>
 <body>
+    <button id="tButton" onclick="showRandomNumber(6, 1)">Try Now</button>
+    <h3 id="showResult"></h3>
 
-    <p id="demo"></p>
+    <script>
+        function showRandomNumber(sValue, eValue) {
+            // Call the myFunction defined in test.js
+            const randomNumber = myFunction(sValue, eValue);
+
+            // Display the random number in the HTML element with id="showResult"
+            document.getElementById("showResult").textContent = `Random Number: ${randomNumber}`;
+        }
+    </script>
+
     <script src="test.js"></script>
 </body>
 </html>
