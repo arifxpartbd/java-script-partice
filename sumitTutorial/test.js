@@ -5,4 +5,5 @@ function myFunction(sValue, eValue) {
     return randomNumber;
 }
 console.log(myFunction(6,1));
+console.log(myFunction(6,1));
 
